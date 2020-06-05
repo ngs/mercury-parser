@@ -1,6 +1,6 @@
 {
   "name": "@ngs/mercury-parser",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Mercury transforms web pages into clean text. Publishers and programmers use it to make the web make sense, and readers use it to read any web article comfortably.",
   "author": "Postlight <mercury@postlight.com>",
   "homepage": "https://mercury.postlight.com",
@@ -25,6 +25,7 @@
     "src/shims/"
   ],
   "main": "./dist/mercury.js",
+  "types": "./types/index.d.ts",
   "bin": {
     "mercury-parser": "./cli.js"
   },
