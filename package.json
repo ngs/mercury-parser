@@ -22,7 +22,8 @@
   "files": [
     "dist",
     "cli.js",
-    "src/shims/"
+    "src/shims/",
+    "types/index.d.ts"
   ],
   "main": "./dist/mercury.js",
   "types": "./types/index.d.ts",
