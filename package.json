@@ -1,16 +1,16 @@
 {
-  "name": "@ngs/mercury-parser",
-  "version": "2.2.2",
+  "name": "@scrapmd/mercury-parser",
+  "version": "2.2.1",
   "description": "Mercury transforms web pages into clean text. Publishers and programmers use it to make the web make sense, and readers use it to read any web article comfortably.",
-  "author": "Postlight <mercury@postlight.com>",
+  "author": "Scrapmd <hi@scrapmd.app>",
   "homepage": "https://mercury.postlight.com",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/postlight/mercury-parser.git"
+    "url": "git+https://github.com/scrapmd/mercury-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/postlight/mercury-parser/issues"
+    "url": "https://github.com/scrapmd/mercury-parser/issues"
   },
   "keywords": [
     "mercury",
