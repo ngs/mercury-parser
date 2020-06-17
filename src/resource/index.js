@@ -77,7 +77,7 @@ const Resource = {
 
     // if encodings in the header/body dont match, use the one in the body
     if (metaContentType && properEncoding !== encoding) {
-      decodedContent = iconv.decode(content, properEncoding);
+      decodedContent = iconv.decode(Buffer.from(content), properEncoding);
       $ = cheerio.load(decodedContent);
     }
 
